@@ -1,5 +1,7 @@
 import { Component, signal } from '@angular/core';
-import { IExperiences } from '../interface/Experiences';
+import { IExperiences } from '../interface/experiences';
+
+
 
 @Component({
   selector: 'app-experiences',
@@ -35,7 +37,7 @@ export class ExperiencesComponent {
         strong: 'Diretor de Projetos - Plane Design',
         p: 'Projeto Academico Freelancer |  Novembro 2022 - Junho 2024',
       },
-      text: '<pDurante minha graduação, participei de um projeto de finalização de curso que envolvia a criação da identidade visual de uma empresa. Aproveitando essa oportunidade, percebi que, como freelancer, meus contratos, propostas comerciais e projetos ainda não possuíam uma identidade definida.</p> <p>Dessa necessidade surgiu a Plane Design, uma solução que consolidou minha marca pessoal e profissional, organizando minha atuação no mercado. O projeto se destacou tanto que fui aprovado com nota máxima. Hoje, todos os contratos e projetos que desenvolvo são representados por essa identidade, garantindo uma comunicação visual forte e padronizada.</p> <p>A Plane Design representa não apenas um projeto acadêmico bem-sucedido, mas também uma evolução da minha trajetória como designer e desenvolvedor.</p> <p>Gestão e Direção de Projetos: Liderança no planejamento e execução de grandes projetos; Domínio de Ferramentas: Adobe Photoshop, Illustrator, After Effects, InDesign, Figma e WordPress; Desenvolvimento Web: Conhecimentos em HTML, CSS e JavaScript para criação de interfaces visuais dinâmicas. </p>',
+      text: '<p>Durante minha graduação, participei de um projeto de finalização de curso que envolvia a criação da identidade visual de uma empresa. Aproveitando essa oportunidade, percebi que, como freelancer, meus contratos, propostas comerciais e projetos ainda não possuíam uma identidade definida.</p> <p>Dessa necessidade surgiu a Plane Design, uma solução que consolidou minha marca pessoal e profissional, organizando minha atuação no mercado. O projeto se destacou tanto que fui aprovado com nota máxima. Hoje, todos os contratos e projetos que desenvolvo são representados por essa identidade, garantindo uma comunicação visual forte e padronizada.</p> <p>A Plane Design representa não apenas um projeto acadêmico bem-sucedido, mas também uma evolução da minha trajetória como designer e desenvolvedor.</p> <p>Gestão e Direção de Projetos: Liderança no planejamento e execução de grandes projetos; Domínio de Ferramentas: Adobe Photoshop, Illustrator, After Effects, InDesign, Figma e WordPress; Desenvolvimento Web: Conhecimentos em HTML, CSS e JavaScript para criação de interfaces visuais dinâmicas. </p>',
     },
     {
       summary: {
